@@ -1,11 +1,9 @@
 package com.jdbc.example;
 
 import com.jdbc.example.jpa.mapping.DmlCreationManager;
-import com.jdbc.example.repository.ProductRepository;
-import com.jdbc.example.service.IProductService;
-import com.jdbc.example.service.ProductService;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.SQLException;
 
 public class JdbcExampleApplication {
 
